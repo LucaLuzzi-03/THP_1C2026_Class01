@@ -21,6 +21,13 @@ public class MyFirstProgram {
 		
 		// Instruction for printing all together
 		System.out.print("This is another text");
+		System.out.println();
+		
+		// Parsing from string to integer
+		System.out.print("Please, enter a number: ");
+		String numberStr = scanner.nextLine();
+		int number = Integer.parseInt(numberStr);
+		System.out.println(number + " is now a number!");
 		
 		// Closing scanner to free space and resources
 		scanner.close();
