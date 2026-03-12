@@ -1,0 +1,41 @@
+# --- Compilación de Java ---
+*.class
+*.log
+*.ctxt
+
+# --- Archivos de empaquetado ---
+*.jar
+*.war
+*.ear
+
+# --- Directorios de salida (IDE) ---
+# Si usas IntelliJ
+.idea/
+*.iml
+out/
+
+# Si usas Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.classpath
+.project
+
+# Si usas NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# --- Archivos del Sistema Operativo ---
+.DS_Store
+Thumbs.db
