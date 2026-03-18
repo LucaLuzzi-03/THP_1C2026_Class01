@@ -22,7 +22,7 @@ public class Exercise_08 {
 		int sumResult = firstNumber + secondNumber;
 		int subtractResult = firstNumber - secondNumber;
 		int multiplicationResult = firstNumber * secondNumber;
-		int divisionResult = firstNumber / secondNumber;
+		double divisionResult = (double)firstNumber / secondNumber;
 
 		// Show the result to the user
 		System.out.println();
